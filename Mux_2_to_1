@@ -11,3 +11,4 @@ end else begin
 out = b;
 end 
 endmodule
+//Mux module added
