@@ -1,0 +1,13 @@
+module mux_2_to_1(
+input logic a,
+output logic b,
+input logic sel,
+output logic out
+);
+always comb begin
+if (sel == 1'b0)begin
+out = a;
+end else begin
+out = b;
+end 
+endmodule
